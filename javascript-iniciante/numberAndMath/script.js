@@ -82,7 +82,7 @@ const numerosModi = numeros.split(',');
 let maiorNumero = 0;
 for(let c = 0; c < numerosModi.length; c++){
     if (maiorNumero < parseInt(numerosModi[c])){
-       maiorNumero = parseInt(numerosModi[c])
+       maiorNumero = parseInt(numerosModi[c]);
     }
 }
 
